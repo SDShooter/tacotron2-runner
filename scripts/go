@@ -1,0 +1,21 @@
+#!/bin/bash --login
+# The --login ensures the bash configuration is loaded,
+# enabling Conda.
+
+# Enable strict mode.
+set -euo pipefail
+# ... Run whatever commands ...
+
+# Temporarily disable strict mode and activate conda:
+set +euo pipefail
+conda activate python
+
+# Re-enable strict mode:
+set -euo pipefail
+
+# exec the final command:
+#exec jupyter notebook --ip=0.0.0.0s --allow-root --no-browser 
+#NOTE: CHANGE TO /workspace/models if supplying your own models
+python -Xfaulthandler /workspace/inference.py -i speak1.txt -o /workspace/result/ --suffix wav --tacotron2=/models/tacotron2_1032590_6000_amp --waveglow=/models/waveglow_1076430_14000_amp --wn-channels 256 --fp16
+#--fp16
+exec "$@"
