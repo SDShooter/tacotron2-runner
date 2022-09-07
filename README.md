@@ -9,7 +9,7 @@ This Docker image is ready to run Nvidia's implementation of a Tacotron2+Waveglo
 2. Download the Trained models below, and add them to a folder at 'PyTorch/SpeechSynthesis/Tacotron2/models'.
 
 ## Inference
-1. Put text that you would like to perform TTS on in a file called speak1.txt in the Tacotron2 folder we've been working from.
+1. Put text that you would like to perform TTS on in a file called speak1.txt in the Tacotron2 folder we've been working from.  Use one line of text for each desired output.
 2. Start a container from the 'PyTorch/SpeechSynthesis/Tacotron2' folder.
 
 ```   
