@@ -1,6 +1,6 @@
 # Overview
 
-This container is ready to run Nvidia's implementation of a Tacotron2+Waveglow neural network based Text to Speech (TTS) engine.  The container sets up pytorch, conda, apex, gcc, and various python dependencias from a debian-slim base.
+This Docker image is ready to run Nvidia's implementation of a Tacotron2+Waveglow neural network based Text to Speech (TTS) engine.  The image sets up pytorch, conda, apex, gcc, and various python dependencias from a debian-slim base.
 
 ## Setup
 
