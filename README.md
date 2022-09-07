@@ -24,11 +24,11 @@ Optional:
 You can modify the entrypoint to perform inference automatically by adding --entrypoint 'bash /go' to your Docker run command.
 
 Additional details are available from the source:
-Nvidia's Tacotron2 repo documentation (https://github.com/NVIDIA/DeepLearningExamples/blob/master/PyTorch/SpeechSynthesis/Tacotron2/README.md)
+[Nvidia's Tacotron2 repo documentation](https://github.com/NVIDIA/DeepLearningExamples/blob/master/PyTorch/SpeechSynthesis/Tacotron2/README.md)
 
 Trained models:
-[Trained Tacotron2 based model from Nvidia](https://catalog.ngc.nvidia.com/orgs/nvidia/models/tacotron2pyt_fp16/files)
-[Waveglow model](https://catalog.ngc.nvidia.com/orgs/nvidia/models/waveglow256pyt_fp16/files)
+* [Trained Tacotron2 based model from Nvidia](https://catalog.ngc.nvidia.com/orgs/nvidia/models/tacotron2pyt_fp16/files)
+* [Waveglow model](https://catalog.ngc.nvidia.com/orgs/nvidia/models/waveglow256pyt_fp16/files)
 
 ## Credits
 * a modified Tacotron 2 model from Nvidia based on  [Natural TTS Synthesis by Conditioning WaveNet on Mel Spectrogram Predictions](https://arxiv.org/abs/1712.05884)
