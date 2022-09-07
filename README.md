@@ -5,7 +5,7 @@ This Docker image is ready to run Nvidia's implementation of a Tacotron2+Waveglo
 ## Setup
 
 1. Clone Nvidia's deep learning repo:
-[Github - NVIDIA/DeepLearningExamples(https://github.com/NVIDIA/DeepLearningExamples)
+[Github - NVIDIA/DeepLearningExamples](https://github.com/NVIDIA/DeepLearningExamples)
 2. Download the Trained models below, and add them to a folder at 'PyTorch/SpeechSynthesis/Tacotron2/models'.
 
 ## Inference
@@ -33,8 +33,8 @@ Trained models:
 ## Credits
 * a modified Tacotron 2 model from Nvidia based on  [Natural TTS Synthesis by Conditioning WaveNet on Mel Spectrogram Predictions](https://arxiv.org/abs/1712.05884)
 * a flow-based neural network model from Nvidia [WaveGlow: A Flow-based Generative Network for Speech Synthesis](https://arxiv.org/abs/1811.00002)
-
-[Voice recordings and text annotations used to train the model are from the LJ Speech Dataset](https://keithito.com/LJ-Speech-Dataset/)
+* [Github - NVIDIA/DeepLearningExamples](https://github.com/NVIDIA/DeepLearningExamples)
+* [Voice recordings and text annotations used to train the model are from the LJ Speech Dataset](https://keithito.com/LJ-Speech-Dataset/)
 
 
 ## No - Warranty
