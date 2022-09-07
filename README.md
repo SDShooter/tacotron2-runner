@@ -13,7 +13,7 @@ This container is ready to run Nvidia's implementation of a Tacotron2+Waveglow n
 2. Start a container from the 'PyTorch/SpeechSynthesis/Tacotron2' folder.
 
 ```   
-docker run --gpus all --ipc=host --ulimit memlock=-1 --ulimit stack=67108864 -it -v ${PWD}:/workspace  --rm sdshooter/tacotron2-runner:latest
+docker run --gpus all --ipc=host --ulimit memlock=-1 --ulimit stack=67108864 -it -v ${PWD}:/workspace  --rm relicx74/tacotron2-runner:latest
 ```
 
 3. Run '/go' to begin inference using the text and models provided. 
